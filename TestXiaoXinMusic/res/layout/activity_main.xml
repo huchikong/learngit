@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/bofang1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放1"/>
+        
+        <Button 
+            android:id="@+id/zanting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂停1"/>
+        
+        <Button 
+            android:id="@+id/tingzhi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止1"/>
+        
+    </LinearLayout>
+   
+
+</LinearLayout>
